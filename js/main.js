@@ -53,7 +53,7 @@ let alunos = [
 // Carregar os dados do array na tela
 
 window.onload = (event) => {
-    let tbody = document.querySelector("#myTable");
+    let tbody = document.querySelector("#tBody");
 
     alunos.forEach ((aluno, index) => {
         let tr = document.createElement("tr");
@@ -70,7 +70,7 @@ window.onload = (event) => {
         tdEmail.textContent = aluno.email;
         tdTelefone.textContent = aluno.telefone;
         tdWork.textContent = aluno.work;
-        tdBotao.innerHTML = `<button class="btn-remover" onclick="remover(this)" >Remover</button>`
+        tdBotao.innerHTML = `<button class="btn btn-danger" onclick="remover(this)" >Remover</button>`
 
         tr.appendChild(tdCod);
         tr.appendChild(tdNome);
@@ -81,6 +81,9 @@ window.onload = (event) => {
 
         tbody.appendChild(tr);
     });
+
+    initPieChart();
+
 }
 
 function remover (id) {
@@ -111,7 +114,7 @@ function adicionar () {
     //Adicionando o id no elemento a ser criado
     row.id = tableSize;
     //Criando o codigo do botão para remover a linha
-    let btnCode = "<button class='remove-btn' onclick='remover(this)'>Remover<button>";
+    let btnCode = "<button class='btn btn-danger' onclick='remover(this)'>Remover<button>";
     //Preenchimento de as celulas da linha
     col1.innerHTML = tableSize;
     col2.innerHTML = nome;
@@ -126,4 +129,60 @@ function adicionar () {
     document.getElementById('profissao').value = "";
     //Retornando false para impedir o reload da página
     return false;
+}
+
+const initPieChart = () => {
+    const ctx = document.getElementById("myChart");
+    const data = {
+        labels: ['Frontend', 'Backend', 'Fullstack', 'Mobile'],
+        datasets: [
+            {
+                label: 'Quantidade',
+                data: [10, 20, 50, 20],
+                backgroundColor: ['pink', 'lightblue', 'lightgreen', 'orange'],
+                hoverOffset: 4
+            }
+        ]
+    }
+    const pieChart = new Chart (
+        ctx,
+        {
+            type: 'pie',
+            data: data
+        }
+    );
+};
+
+const initPolarAreaChart = () => {
+    removerChart();
+    // 1 passo: pegar o elemento #myChart
+    const ctx = document.getElementById("myChart");
+
+    // 2 passo: definir os dados do gráfico
+    const data = {
+        labels: ['Frontend', 'Backend', 'Fullstack', 'Mobile'],
+        datasets: [
+            {
+                label: 'Quantidade',
+                data: [11, 15, 7, 3],
+                backgroundColor: ['pink', 'lightblue', 'lightgreen', 'orange']
+            }
+        ]
+    }
+
+    const polarAreaChart = new Chart (
+        ctx,
+        {
+            type: 'polarArea',
+            data: data
+        }
+    )
+}
+
+const removerChart = () => {
+    const divChart = document.querySelector('.chart');
+    document.getElementById("myChart").remove();
+    const myChart = document.createElement("canvas");
+    myChart.id = "myChart";
+    divChart.appendChild(myChart);
 }
