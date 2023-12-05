@@ -34,6 +34,8 @@ const calcularImc = () => {
     else {
         resultado.textContent = "Por favor, preencha todos os campos corretamente.";
     }
+
+    limparCampos();
 }
 
 const limparCampos = () => {
