@@ -1,0 +1,19 @@
+{
+  "alunos": [
+    {
+      "id": 1,
+      "nome": "Juan",
+      "curso": "Front-End"
+    },
+    {
+      "id": 2,
+      "nome": "Vegas",
+      "curso": "Front-End / Infra"
+    },
+    {
+      "id": 3,
+      "nome": "Inácio",
+      "curso": "Front-End"
+    }
+  ]
+}
