@@ -1,0 +1,15 @@
+{
+  "name": "games-api",
+  "version": "1.0.0",
+  "description": "* Ter o node instalado na máquina\r * Rodar o comando: 'npm init -y'\r * Instalar o json-server: 'npm install json-server'",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.17.4"
+  }
+}

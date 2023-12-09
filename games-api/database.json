@@ -1,0 +1,82 @@
+{
+  "jogos": [
+    {
+      "id": 1,
+      "nome": "Dark Souls",
+      "img": "https://codetheworld.io/wp-content/uploads/2023/12/Dark-Souls.png",
+      "preco": 300
+    },
+    {
+      "id": 2,
+      "nome": "Far Cry 8",
+      "img": "https://codetheworld.io/wp-content/uploads/2023/12/Far-Cry-4.png",
+      "preco": 200
+    },
+    {
+      "id": 3,
+      "nome": "Dark Souls",
+      "img": "https://codetheworld.io/wp-content/uploads/2023/12/Dark-Souls.png",
+      "preco": 300
+    },
+    {
+      "nome": "Dark Souls",
+      "img": "https://codetheworld.io/wp-content/uploads/2023/12/Dark-Souls.png",
+      "preco": 300,
+      "id": 4
+    },
+    {
+      "nome": "Dark Souls",
+      "img": "https://codetheworld.io/wp-content/uploads/2023/12/Dark-Souls.png",
+      "preco": 300,
+      "id": 5
+    },
+    {
+      "nome": "Dark Souls",
+      "img": "https://codetheworld.io/wp-content/uploads/2023/12/Dark-Souls.png",
+      "preco": 300,
+      "id": 6
+    },
+    {
+      "nome": "Dark Souls",
+      "img": "https://codetheworld.io/wp-content/uploads/2023/12/Dark-Souls.png",
+      "preco": 300,
+      "id": 7
+    },
+    {
+      "nome": "Dark Souls",
+      "img": "https://codetheworld.io/wp-content/uploads/2023/12/Dark-Souls.png",
+      "preco": 300,
+      "id": 8
+    },
+    {
+      "nome": "Dark Souls",
+      "img": "https://codetheworld.io/wp-content/uploads/2023/12/Dark-Souls.png",
+      "preco": 300,
+      "id": 9
+    },
+    {
+      "nome": "Dark Souls",
+      "img": "https://codetheworld.io/wp-content/uploads/2023/12/Dark-Souls.png",
+      "preco": 300,
+      "id": 10
+    },
+    {
+      "nome": "Dark Souls",
+      "img": "https://codetheworld.io/wp-content/uploads/2023/12/Dark-Souls.png",
+      "preco": 300,
+      "id": 11
+    },
+    {
+      "nome": "Dark Souls",
+      "img": "https://codetheworld.io/wp-content/uploads/2023/12/Dark-Souls.png",
+      "preco": 300,
+      "id": 12
+    },
+    {
+      "nome": "Dark Souls",
+      "img": "https://codetheworld.io/wp-content/uploads/2023/12/Dark-Souls.png",
+      "preco": 300,
+      "id": 13
+    }
+  ]
+}
