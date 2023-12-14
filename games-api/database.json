@@ -14,21 +14,15 @@
     },
     {
       "nome": "The legend of Zelda",
-      "img": "https://codetheworld.io/wp-content/uploads/2023/12/Dark-Souls.png",
+      "img": "https://zelda.nintendo.com/tears-of-the-kingdom/_images/game/logo-shadow.png",
       "preco": 100,
       "id": 3
     },
     {
       "nome": "The legend of Zelda",
-      "img": "https://codetheworld.io/wp-content/uploads/2023/12/Dark-Souls.png",
+      "img": "https://zelda.nintendo.com/tears-of-the-kingdom/_images/game/logo-shadow.png",
       "preco": 100,
       "id": 4
-    },
-    {
-      "nome": "The legend of Zelda",
-      "img": "https://codetheworld.io/wp-content/uploads/2023/12/Dark-Souls.png",
-      "preco": 100,
-      "id": 5
     }
   ]
 }
